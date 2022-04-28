@@ -5,6 +5,14 @@
   "main": "index.js",
   "author": "Shion<shion.chow@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/joyshion/taro-plugin-h5-platform-extend",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joyshion/taro-plugin-h5-platform-extend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joyshion/taro-plugin-h5-platform-extend/issues"
+  },
   "files": [
     "index.js",
     "dist",
