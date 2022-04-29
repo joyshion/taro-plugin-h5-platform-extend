@@ -8,12 +8,19 @@ yarn add @joyshion/taro-plugin-h5-platform-extend --dev
 ```
 
 ### 配置
- 修改项目目录下的package.json文件
+修改taro的配置文件config/index.js，在`plugins`内增加插件
+```js
+plugins: [
+    "@joyshion/taro-plugin-h5-platform-extend"
+]
+```
+修改项目目录下的package.json文件
 - 增加`h5Extend`配置，根据要扩展H5平台的名称来配置，平台名称需唯一（包括Taro已支持的平台），扩展平台的编译参数需为已配置的平台名称
     ```bash
     "h5Extend": [
         "yunshanfu",
         "yizhifu",
+        ...
     ],
     ```
 - `scripts`增加h5扩展平台编译及参数
