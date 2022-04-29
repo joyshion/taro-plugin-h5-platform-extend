@@ -1,6 +1,6 @@
 {
   "name": "@joyshion/taro-plugin-h5-platform-extend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tarojs plugin for h5 extend platform",
   "main": "index.js",
   "author": "Shion<shion.chow@gmail.com>",
